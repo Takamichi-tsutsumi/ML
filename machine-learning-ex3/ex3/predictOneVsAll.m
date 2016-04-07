@@ -33,10 +33,7 @@ X = [ones(m, 1) X];
 
 ansers = X * all_theta';
 
-[x, ix] = max(ansers')
-
-p = ix;
-
+[x, p] = max(ansers')
 
 
 
